@@ -1,0 +1,33 @@
+{
+  "name": "product-image-manager",
+  "version": "1.0.0",
+  "description": "Website Node.js giúp upload 4 ảnh cho từng sản phẩm từ file CSV, copy mô tả, tự động lưu ảnh theo tên sản phẩm và xuất CSV có đường dẫn ảnh",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "csv",
+    "upload ảnh",
+    "quản lý sản phẩm",
+    "woocommerce"
+  ],
+  "author": "Bạn hoặc tên shop của bạn",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "csv-stringify": "^6.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

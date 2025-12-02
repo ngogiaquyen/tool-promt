@@ -1,0 +1,301 @@
+[18:29:50 2/12/2025] Khởi động thành công – Load 365 sản phẩm
+[18:30:30 2/12/2025] Khởi động thành công – Load 365 sản phẩm
+[18:31:00 2/12/2025] UPLOAD THÀNH CÔNG → Charming Wool Fox Plush | Ảnh 1 | không có → charming-wool-fox-plush-1.png | 1851KB
+[18:31:33 2/12/2025] UPLOAD THÀNH CÔNG → Classic Cuddly Teddy Bear | Ảnh 1 | không có → classic-cuddly-teddy-bear-1.png | 2247KB
+[18:32:11 2/12/2025] XÓA ẢNH → Classic Cuddly Teddy Bear | Ảnh 1 | classic-cuddly-teddy-bear-1.png
+[18:36:44 02/12/2025] [SERVER] ================================================================
+[18:36:44 02/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH ĐÃ KHỞI ĐỘNG THÀNH CÔNG
+[18:36:44 02/12/2025] [SERVER] Link truy cập: http://localhost:3000
+[18:36:44 02/12/2025] [SERVER] File log: E:\TOOL\wordpress\upload.log
+[18:36:44 02/12/2025] [SERVER] Thư mục ảnh: E:\TOOL\wordpress\public\images
+[18:36:44 02/12/2025] [SERVER] ================================================================
+[18:36:44 02/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Đã load 365 sản phẩm từ products.csv
+[18:36:49 02/12/2025] [::1] Truy cập trang chủ
+[18:36:49 02/12/2025] [::1] API GET /api/products → Trang 1, limit 24, trả về 24 sản phẩm
+[18:36:49 02/12/2025] [::1] API GET /api/products → Trang 1, limit 24, trả về 24 sản phẩm
+[18:37:10 02/12/2025] [::1] BẮT ĐẦU UPLOAD → ID: 000 | Ảnh thứ 1 | File: Gemini_Generated_Image_d9e74vd9e74vd9e7.png | Kích thước: 1345.9KB
+[18:37:10 02/12/2025] [::1] UPLOAD THÀNH CÔNG → Charming Wool Fox Plush | Ảnh 1 | không có → charming-wool-fox-plush-1.png | 1851KB | IP: ::1
+[18:37:12 02/12/2025] [::1] API GET /api/products → Trang 1, limit 24, trả về 24 sản phẩm
+[18:38:01 02/12/2025] [::1] Truy cập trang chủ
+[18:38:02 02/12/2025] [::1] API GET /api/products → Trang 1, limit 24, trả về 24 sản phẩm
+[18:38:02 02/12/2025] [::1] API GET /api/products → Trang 1, limit 24, trả về 24 sản phẩm
+[18:38:07 02/12/2025] [SERVER] ================================================================
+[18:38:07 02/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH ĐÃ KHỞI ĐỘNG THÀNH CÔNG
+[18:38:07 02/12/2025] [SERVER] Link truy cập: http://localhost:3000
+[18:38:07 02/12/2025] [SERVER] File log: E:\TOOL\wordpress\upload.log
+[18:38:07 02/12/2025] [SERVER] Thư mục ảnh: E:\TOOL\wordpress\public\images
+[18:38:07 02/12/2025] [SERVER] ================================================================
+[18:38:07 02/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Đã load 365 sản phẩm từ products.csv
+[18:38:10 02/12/2025] [::1] Truy cập trang chủ
+[18:38:10 02/12/2025] [::1] API GET /api/products → Trang 1, limit 24, trả về 24 sản phẩm
+[18:38:10 02/12/2025] [::1] API GET /api/products → Trang 1, limit 24, trả về 24 sản phẩm
+[18:39:28 2/12/2025] [SERVER] ================================================================
+[18:39:28 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU NHANH ĐÃ KHỞI ĐỘNG
+[18:39:28 2/12/2025] [SERVER] → http://localhost:3000
+[18:39:28 2/12/2025] [SERVER] → Ảnh được nén WebP + resize ngay trên trình duyệt
+[18:39:28 2/12/2025] [SERVER] → Upload chỉ còn 1–3 giây!
+[18:39:28 2/12/2025] [SERVER] ================================================================
+[18:39:28 2/12/2025] [SERVER] KHỞI ĐỘNG – Load 365 sản phẩm
+[18:40:32 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:40:32 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU NHANH ĐÃ KHỞI ĐỘNG
+[18:40:32 2/12/2025] [SERVER] → http://localhost:3000
+[18:40:32 2/12/2025] [SERVER] → Tốc độ upload: 1–3 giây (ảnh 8MB)
+[18:40:32 2/12/2025] [SERVER] → Định dạng: WebP tự động
+[18:40:32 2/12/2025] [SERVER] → Không reload trang khi upload
+[18:40:32 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:40:32 2/12/2025] [SERVER] KHỞI ĐỘNG – Đã load 365 sản phẩm
+[18:41:14 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:41:14 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU NHANH ĐÃ KHỞI ĐỘNG
+[18:41:14 2/12/2025] [SERVER] → http://localhost:3000
+[18:41:14 2/12/2025] [SERVER] → Tốc độ upload: 1–3 giây (ảnh 8MB)
+[18:41:14 2/12/2025] [SERVER] → Định dạng: WebP tự động
+[18:41:14 2/12/2025] [SERVER] → Không reload trang khi upload
+[18:41:14 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:41:14 2/12/2025] [SERVER] KHỞI ĐỘNG – Đã load 365 sản phẩm
+[18:41:17 2/12/2025] [::1] Truy cập trang chủ
+[18:41:18 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:41:18 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:41:38 2/12/2025] [::1] BẮT ĐẦU UPLOAD → Charming Wool Fox Plush | Ảnh 1 | Gemini_Generated_Image_d9e74vd9e74vd9e7.png (1.31MB)
+[18:41:38 2/12/2025] [::1] UPLOAD THÀNH CÔNG → Charming Wool Fox Plush | Ảnh 1 → charming-wool-fox-plush-1.webp (77KB)
+[18:41:38 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:41:48 2/12/2025] [::1] Truy cập trang chủ
+[18:41:48 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:41:48 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:41:53 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:41:53 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU NHANH ĐÃ KHỞI ĐỘNG
+[18:41:53 2/12/2025] [SERVER] → http://localhost:3000
+[18:41:53 2/12/2025] [SERVER] → Tốc độ upload: 1–3 giây (ảnh 8MB)
+[18:41:53 2/12/2025] [SERVER] → Định dạng: WebP tự động
+[18:41:53 2/12/2025] [SERVER] → Không reload trang khi upload
+[18:41:53 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:41:53 2/12/2025] [SERVER] KHỞI ĐỘNG – Đã load 365 sản phẩm
+[18:41:56 2/12/2025] [::1] Truy cập trang chủ
+[18:41:56 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:41:56 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:43:11 2/12/2025] [SERVER] Đang load dữ liệu từ: products_with_images.csv
+[18:43:11 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:43:11 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU NHANH ĐÃ KHỞI ĐỘNG
+[18:43:11 2/12/2025] [SERVER] → http://localhost:3000
+[18:43:11 2/12/2025] [SERVER] → Tốc độ upload: 1–3 giây (ảnh 8MB)
+[18:43:11 2/12/2025] [SERVER] → Định dạng: WebP tự động
+[18:43:11 2/12/2025] [SERVER] → Không reload trang khi upload
+[18:43:11 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:43:11 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Đã load 365 sản phẩm (có giữ lại ảnh cũ)
+[18:43:14 2/12/2025] [::1] Truy cập trang chủ
+[18:43:15 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:43:15 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:43:23 2/12/2025] [::1] Truy cập trang chủ
+[18:43:24 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:43:24 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:43:39 2/12/2025] [SERVER] Đang load dữ liệu từ: products_with_images.csv
+[18:43:39 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:43:39 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU NHANH ĐÃ KHỞI ĐỘNG
+[18:43:39 2/12/2025] [SERVER] → http://localhost:3000
+[18:43:39 2/12/2025] [SERVER] → Tốc độ upload: 1–3 giây (ảnh 8MB)
+[18:43:39 2/12/2025] [SERVER] → Định dạng: WebP tự động
+[18:43:39 2/12/2025] [SERVER] → Không reload trang khi upload
+[18:43:39 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:43:39 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Đã load 365 sản phẩm (có giữ lại ảnh cũ)
+[18:46:13 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:46:13 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:46:13 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU NHANH ĐÃ KHỞI ĐỘNG
+[18:46:13 2/12/2025] [SERVER] → http://localhost:3000
+[18:46:13 2/12/2025] [SERVER] → Tốc độ upload: 1–3 giây (ảnh 8MB)
+[18:46:13 2/12/2025] [SERVER] → Định dạng: WebP tự động
+[18:46:13 2/12/2025] [SERVER] → Không reload trang khi upload
+[18:46:13 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:46:13 2/12/2025] [SERVER] Phát hiện định dạng CSV: TOOL_BACKUP
+[18:46:13 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (hỗ trợ cả 2 định dạng CSV)
+[18:46:32 2/12/2025] [::1] Truy cập trang chủ
+[18:46:33 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:46:33 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:47:18 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:47:18 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:47:18 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU NHANH ĐÃ KHỞI ĐỘNG
+[18:47:18 2/12/2025] [SERVER] → http://localhost:3000
+[18:47:18 2/12/2025] [SERVER] → Tốc độ upload: 1–3 giây (ảnh 8MB)
+[18:47:18 2/12/2025] [SERVER] → Định dạng: WebP tự động
+[18:47:18 2/12/2025] [SERVER] → Không reload trang khi upload
+[18:47:18 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:47:18 2/12/2025] [SERVER] Phát hiện định dạng CSV: TOOL_BACKUP
+[18:47:18 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (hỗ trợ cả 2 định dạng CSV)
+[18:47:26 2/12/2025] [::1] Truy cập trang chủ
+[18:47:27 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:47:27 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:47:53 2/12/2025] [::1] BẮT ĐẦU UPLOAD → Charming Wool Fox Plush | Ảnh 1 | Gemini_Generated_Image_d9e74vd9e74vd9e7.png (1.31MB)
+[18:47:54 2/12/2025] [::1] UPLOAD THÀNH CÔNG → Charming Wool Fox Plush | Ảnh 1 → charming-wool-fox-plush-1.webp (77KB)
+[18:47:54 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:47:58 2/12/2025] [::1] Truy cập trang chủ
+[18:47:58 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:47:58 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:48:05 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:48:05 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:48:05 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU NHANH ĐÃ KHỞI ĐỘNG
+[18:48:05 2/12/2025] [SERVER] → http://localhost:3000
+[18:48:05 2/12/2025] [SERVER] → Tốc độ upload: 1–3 giây (ảnh 8MB)
+[18:48:05 2/12/2025] [SERVER] → Định dạng: WebP tự động
+[18:48:05 2/12/2025] [SERVER] → Không reload trang khi upload
+[18:48:05 2/12/2025] [SERVER] ════════════════════════════════════════════════
+[18:48:05 2/12/2025] [SERVER] Phát hiện định dạng CSV: TOOL_BACKUP
+[18:48:05 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (hỗ trợ cả 2 định dạng CSV)
+[18:48:07 2/12/2025] [::1] Truy cập trang chủ
+[18:48:08 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:48:08 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:48:12 2/12/2025] [::1] Truy cập trang chủ
+[18:48:13 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:48:13 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:48:32 2/12/2025] [::1] BẮT ĐẦU UPLOAD → Classic Cuddly Teddy Bear | Ảnh 1 | Gemini_Generated_Image_fcx0iafcx0iafcx0.png (1.19MB)
+[18:48:32 2/12/2025] [::1] UPLOAD THÀNH CÔNG → Classic Cuddly Teddy Bear | Ảnh 1 → classic-cuddly-teddy-bear-1.webp (46KB)
+[18:48:32 2/12/2025] [::1] API GET /api/products – Trang 1 – 24 sản phẩm
+[18:50:06 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:50:06 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:50:06 2/12/2025] [SERVER] → http://localhost:3000
+[18:50:06 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:50:06 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:50:06 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[18:50:47 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:50:47 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:50:47 2/12/2025] [SERVER] → http://localhost:3000
+[18:50:47 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:50:47 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:50:47 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[18:50:51 2/12/2025] [::1] Truy cập trang chủ
+[18:51:13 2/12/2025] [::1] UPLOAD → Vibrant and Cuddly Colorful Panda Plush | Ảnh 1 → vibrant-and-cuddly-colorful-panda-plush-1.webp (77KB)
+[18:52:31 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:52:31 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:52:31 2/12/2025] [SERVER] → http://localhost:3000
+[18:52:31 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:52:31 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:52:31 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[18:52:35 2/12/2025] [::1] Truy cập trang chủ
+[18:53:01 2/12/2025] [::1] UPLOAD → Charming Wool Dog Toy | Ảnh 1 → charming-wool-dog-toy-1.webp (77KB)
+[18:53:35 2/12/2025] [::1] Truy cập trang chủ
+[18:54:10 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:54:10 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:54:10 2/12/2025] [SERVER] → http://localhost:3000
+[18:54:10 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:54:10 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:54:21 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:54:21 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:54:21 2/12/2025] [SERVER] → http://localhost:3000
+[18:54:21 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:54:21 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:54:21 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[18:54:23 2/12/2025] [::1] Truy cập trang chủ
+[18:54:56 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:54:56 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:54:56 2/12/2025] [SERVER] → http://localhost:3000
+[18:54:56 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:54:56 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:54:57 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[18:55:00 2/12/2025] [::1] Truy cập trang chủ
+[18:55:23 2/12/2025] [::1] UPLOAD → Charming Wool Fox Plush | Ảnh 2 → charming-wool-fox-plush-2.webp (77KB)
+[18:56:02 2/12/2025] [::1] UPLOAD → Charming Wool Fox Plush | Ảnh 3 → charming-wool-fox-plush-3.webp (77KB)
+[18:56:28 2/12/2025] [::1] UPLOAD → Charming Wool Fox Plush | Ảnh 4 → charming-wool-fox-plush-4.webp (77KB)
+[18:56:42 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:56:42 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:56:42 2/12/2025] [SERVER] → http://localhost:3000
+[18:56:42 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:56:42 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:56:42 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[18:56:46 2/12/2025] [::1] Truy cập trang chủ
+[18:57:10 2/12/2025] [::1] UPLOAD → Classic Cuddly Teddy Bear | Ảnh 2 → classic-cuddly-teddy-bear-2.webp (77KB)
+[18:57:41 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:57:41 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:57:41 2/12/2025] [SERVER] → http://localhost:3000
+[18:57:41 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:57:41 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:57:41 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[18:57:55 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:57:55 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:57:55 2/12/2025] [SERVER] → http://localhost:3000
+[18:57:55 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:57:55 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:57:55 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[18:58:07 2/12/2025] [::1] Truy cập trang chủ
+[18:59:58 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[18:59:59 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[18:59:59 2/12/2025] [SERVER] → http://localhost:3000
+[18:59:59 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[18:59:59 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[18:59:59 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[19:00:01 2/12/2025] [::1] Truy cập trang chủ
+[19:00:26 2/12/2025] [::1] UPLOAD → Classic Cuddly Teddy Bear | Ảnh 3 → classic-cuddly-teddy-bear-3.webp (77KB)
+[19:00:47 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[19:00:47 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[19:00:47 2/12/2025] [SERVER] → http://localhost:3000
+[19:00:47 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[19:00:47 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[19:00:47 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[19:00:50 2/12/2025] [::1] Truy cập trang chủ
+[19:01:11 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[19:01:11 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[19:01:11 2/12/2025] [SERVER] → http://localhost:3000
+[19:01:11 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[19:01:11 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[19:01:11 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[19:01:13 2/12/2025] [::1] Truy cập trang chủ
+[19:01:35 2/12/2025] [::1] UPLOAD → Classic Cuddly Teddy Bear | Ảnh 4 → classic-cuddly-teddy-bear-4.webp (77KB)
+[19:03:28 2/12/2025] [::1] Truy cập trang chủ
+[19:04:30 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[19:04:30 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[19:04:30 2/12/2025] [SERVER] → http://localhost:3000
+[19:04:30 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[19:04:30 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[19:04:30 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[19:04:41 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[19:04:41 2/12/2025] [SERVER] TOOL QUẢN LÝ ẢNH SIÊU MƯỢT ĐÃ KHỞI ĐỘNG
+[19:04:41 2/12/2025] [SERVER] → http://localhost:3000
+[19:04:41 2/12/2025] [SERVER] → Giữ ảnh vĩnh viễn, không reload trang, tốc độ nhanh như chớp!
+[19:04:41 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[19:04:41 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Load 365 sản phẩm (giữ lại ảnh cũ)
+[19:04:44 2/12/2025] [::1] Truy cập trang chủ
+[19:05:08 2/12/2025] [::1] UPLOAD → Vibrant and Cuddly Colorful Panda Plush | Ảnh 2 → vibrant-and-cuddly-colorful-panda-plush-2.webp (77KB)
+[19:08:47 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[19:08:47 2/12/2025] [SERVER] =====================================
+[19:08:47 2/12/2025] [SERVER] API SERVER QUẢN LÝ ẢNH ĐÃ KHỞI ĐỘNG
+[19:08:47 2/12/2025] [SERVER] → http://localhost:3000
+[19:08:47 2/12/2025] [SERVER] → Frontend HTML chạy riêng, gọi API này
+[19:08:47 2/12/2025] [SERVER] → Ảnh được lưu vĩnh viễn trong /public/images
+[19:08:47 2/12/2025] [SERVER] =====================================
+[19:08:47 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[19:08:47 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Đã load 365 sản phẩm
+[19:10:28 2/12/2025] [::1] UPLOAD LỖI → Vibrant and Cuddly Colorful Panda Plush | EBUSY: resource busy or locked, unlink 'E:\TOOL\wordpress\uploads\0df23a93ba44be441c3cd508eedfec3a'
+[19:10:35 2/12/2025] [::1] UPLOAD LỖI → Vibrant and Cuddly Colorful Panda Plush | EBUSY: resource busy or locked, unlink 'E:\TOOL\wordpress\uploads\489d91d21fc8c4edd390f221cf4a6bb5'
+[19:12:20 2/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[19:12:20 2/12/2025] [SERVER] ============================================
+[19:12:20 2/12/2025] [SERVER]    TOOL QUẢN LÝ ẢNH SẢN PHẨM - PHIÊN BẢN MỚI   
+[19:12:20 2/12/2025] [SERVER]    ĐÃ FIX HOÀN TOÀN LỖI EBUSY TRÊN WINDOWS   
+[19:12:20 2/12/2025] [SERVER]    Server chạy tại: http://localhost:3000   
+[19:12:20 2/12/2025] [SERVER]    Upload liên tục 1000 ảnh vẫn mượt mà!     
+[19:12:20 2/12/2025] [SERVER] ============================================
+[19:12:20 2/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[19:12:20 2/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Đã load 365 sản phẩm
+[19:12:31 2/12/2025] [127.0.0.1] UPLOAD → Vibrant and Cuddly Colorful Panda Plush | Ảnh 3 → vibrant-and-cuddly-colorful-panda-plush-3.webp (72KB)
+[19:12:49 2/12/2025] [127.0.0.1] UPLOAD → Vibrant and Cuddly Colorful Panda Plush | Ảnh 4 → vibrant-and-cuddly-colorful-panda-plush-4.webp (52KB)
+[19:16:21 2/12/2025] [127.0.0.1] UPLOAD → Charming Plastic Fox Toy | Ảnh 1 → charming-plastic-fox-toy-1.webp (28KB)
+[19:17:27 2/12/2025] [127.0.0.1] UPLOAD → Charming Plastic Fox Toy | Ảnh 2 → charming-plastic-fox-toy-2.webp (7KB)
+[19:17:32 2/12/2025] [127.0.0.1] XÓA ẢNH → Charming Plastic Fox Toy | Ảnh 2
+[19:18:25 2/12/2025] [unknown] UPLOAD → Charming Plastic Fox Toy | Ảnh 2 → charming-plastic-fox-toy-2.webp (23KB)
+[19:18:32 2/12/2025] [127.0.0.1] XÓA ẢNH → Classic Cuddly Teddy Bear | Ảnh 4
+[19:18:35 2/12/2025] [127.0.0.1] XÓA ẢNH → Classic Cuddly Teddy Bear | Ảnh 3
+[19:18:38 2/12/2025] [127.0.0.1] XÓA ẢNH → Classic Cuddly Teddy Bear | Ảnh 1
+[19:18:42 2/12/2025] [127.0.0.1] XÓA ẢNH → Classic Cuddly Teddy Bear | Ảnh 2
+[19:18:44 2/12/2025] [127.0.0.1] XÓA ẢNH → Charming Wool Fox Plush | Ảnh 4
+[19:18:46 2/12/2025] [127.0.0.1] XÓA ẢNH → Charming Wool Fox Plush | Ảnh 2
+[19:18:49 2/12/2025] [127.0.0.1] XÓA ẢNH → Charming Wool Fox Plush | Ảnh 1
+[19:18:52 2/12/2025] [127.0.0.1] XÓA ẢNH → Charming Wool Fox Plush | Ảnh 3
+[19:18:54 2/12/2025] [127.0.0.1] XÓA ẢNH → Vibrant and Cuddly Colorful Panda Plush | Ảnh 1
+[19:18:57 2/12/2025] [127.0.0.1] XÓA ẢNH → Vibrant and Cuddly Colorful Panda Plush | Ảnh 3
+[19:19:02 2/12/2025] [127.0.0.1] XÓA ẢNH → Vibrant and Cuddly Colorful Panda Plush | Ảnh 4
+[19:19:05 2/12/2025] [127.0.0.1] XÓA ẢNH → Vibrant and Cuddly Colorful Panda Plush | Ảnh 2
+[19:19:07 2/12/2025] [127.0.0.1] XÓA ẢNH → Charming Wool Dog Toy | Ảnh 1
+[19:19:23 2/12/2025] [127.0.0.1] XÓA ẢNH → Charming Plastic Fox Toy | Ảnh 1
+[19:19:26 2/12/2025] [127.0.0.1] XÓA ẢNH → Charming Plastic Fox Toy | Ảnh 2
+[19:22:04 2/12/2025] [unknown] UPLOAD → Charming Wool Fox Plush | Ảnh 1 → charming-wool-fox-plush-1.webp (71KB)
+[19:22:07 2/12/2025] [127.0.0.1] XÓA ẢNH → Charming Wool Fox Plush | Ảnh 1
+[19:22:12 2/12/2025] [127.0.0.1] UPLOAD → Charming Wool Fox Plush | Ảnh 1 → charming-wool-fox-plush-1.webp (42KB)
+[19:22:49 2/12/2025] [unknown] UPLOAD → Charming Wool Fox Plush | Ảnh 2 → charming-wool-fox-plush-2.webp (71KB)
+[19:22:53 2/12/2025] [unknown] UPLOAD → Charming Wool Fox Plush | Ảnh 3 → charming-wool-fox-plush-3.webp (42KB)
+[19:22:57 2/12/2025] [unknown] UPLOAD → Charming Wool Fox Plush | Ảnh 4 → charming-wool-fox-plush-4.webp (42KB)
+[19:23:03 2/12/2025] [unknown] UPLOAD → Classic Cuddly Teddy Bear | Ảnh 1 → classic-cuddly-teddy-bear-1.webp (71KB)
