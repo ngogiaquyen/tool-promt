@@ -197,8 +197,8 @@ return `<div class="card" data-id="${p.id}">
             `}
             <div class="label">${i===0?'CHÍNH DIỆN':'Ảnh '+(i+1)}</div>
             <div class="upload-area" 
-                 ondrop="drop(event,'${p.id}',${i})" 
-                 ondragover="e=>e.preventDefault()"
+                 ondrop="drop(event, '${p.id}', ${i}); return false;" 
+                  ondragover="event.preventDefault(); return false;"
                  onclick="this.parentElement.querySelector('input').click()"></div>
             <input type="file" accept="image/*" style="display:none" onchange="upload(this.files[0],'${p.id}',${i})">
           </div>
