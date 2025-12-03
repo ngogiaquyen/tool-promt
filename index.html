@@ -3,63 +3,64 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Quản Lý Ảnh Sản Phẩm (AI Gen)</title>
+<title>Quản Lý Ảnh Shopee - Kéo Thả Siêu Mượt</title>
 <style>
   body{margin:0;font-family:Segoe UI,sans-serif;background:#f8fcff;color:#2c3e50}
-  .topbar{background:#2c3e50;color:#fff;padding:14px 20px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 4px 15px rgba(0,0,0,.15);flex-wrap:wrap;gap:10px}
-  .topbar h1{margin:0;font-size:20px;font-weight:800;letter-spacing: 0.5px;}
-  .stats{font-size:13px;display:flex;gap:12px;flex-wrap:wrap}
-  .stats span{background:rgba(255,255,255,.15);padding:5px 12px;border-radius:20px;font-weight:600}
-  .pagination{text-align:center;margin:25px 0}
-  .pagination button,.pagination select{padding:9px 18px;margin:0 6px;border:none;border-radius:6px;font-weight:bold;font-size:14px;cursor:pointer;transition:0.2s}
-  .pagination button{background:#2c3e50;color:#fff}
-  .pagination button:hover{background:#34495e}
-  .pagination button:disabled{background:#bdc3c7;cursor:not-allowed}
-  .pagination select{background:#fff;color:#2c3e50;border:1px solid #bdc3c7}
-  .container{max-width:1600px;margin:0 auto;padding:20px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:28px}
-  .card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.05);border:1px solid #eee;transition:.3s}
-  .card:hover{transform:translateY(-5px);box-shadow:0 12px 30px rgba(0,0,0,.1)}
-  .imgs{display:grid;grid-template-columns:1fr 1fr;gap:10px;padding:15px;background:#fdfdfd;border-bottom:1px solid #eee}
-  .box{position:relative;border:2px dashed #bdc3c7;border-radius:8px;height:200px;background:#f8f9fa;overflow:hidden;cursor:pointer;transition:.2s}
-  .box:hover{border-color:#3498db;background:#ecf0f1}
-  .box img{width:100%;height:100%;object-fit:cover;border-radius:6px}
-  .label{position:absolute;top:8px;left:8px;background:rgba(0,0,0,0.7);color:#fff;padding:3px 8px;border-radius:4px;font-size:11px;font-weight:bold;z-index:2;backdrop-filter: blur(4px);}
-  .del,.download{position:absolute;top:8px;padding: 6px 8px;border-radius:6px;border:none;font-size:14px;cursor:pointer;z-index:10;transition:0.2s}
-  .del{right:8px;background:#e74c3c;color:#fff}
-  .del:hover{background:#c0392b}
-  .download{right:46px;background:#3498db;color:#fff}
-  .download:hover{background:#2980b9}
-  .upload-area{width:100%;height:100%;position:absolute;inset:0;cursor:pointer;z-index:1}
-  .btns{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px;padding: 0 15px}
-  .copy1{padding:10px;background:#ecf0f1;color:#2c3e50;border:1px solid #bdc3c7;border-radius:6px;font-size:12px;font-weight:bold;cursor:pointer;transition:.2s}
-  .copy1:hover{background:#bdc3c7;color:#000}
-  .info{padding:15px;text-align:left}
-  .name{font-size:16px;font-weight:700;color:#2c3e50;margin-bottom:8px;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;overflow: hidden;}
-  .status{padding:4px 12px;border-radius:12px;font-size:11px;font-weight:bold;display:inline-block}
+  .topbar{background:linear-gradient(135deg,#3498e44ad,#9b59b6);color:#fff;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 6px 25px rgba(142,68,173,.3);flex-wrap:wrap;gap:12px}
+  .topbar h1{margin:0;font-size:22px;font-weight:900}
+  .stats{font-size:14px;display:flex;gap:14px;flex-wrap:wrap}
+  .stats span{background:rgba(255,255,255,.25);padding:7px 16px;border-radius:30px;font-weight:bold}
+  .pagination{text-align:center;margin:30px 0}
+  .pagination button,.pagination select{padding:11px 22px;margin:0 8px;border:none;border-radius:12px;font-weight:bold;font-size:15px;cursor:pointer;transition:.3s}
+  .pagination button{background:#8e44ad;color:#fff;box-shadow:0 5px 18px rgba(142,68,173,.4)}
+  .pagination button:hover{background:#732d91;transform:translateY(-3px)}
+  .pagination button:disabled{background:#95a5a6;cursor:not-allowed}
+  .pagination select{background:#fff;color:#8e44ad;border:3px solid #8e44ad}
+  .container{max-width:1750px;margin:0 auto;padding:20px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(410px,1fr));gap:32px}
+  .card{background:#fff;border-radius:22px;overflow:hidden;box-shadow:0 12px 35px rgba(142,68,173,.18);transition:.4s}
+  .card:hover{transform:translateY(-15px);box-shadow:0 25px 60px rgba(142,68,173,.3)}
+  .imgs{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:22px;background:#f3e8ff}
+  .box{position:relative;border:4px dashed #bb86fc;border-radius:18px;height:240px;background:#fff;overflow:hidden;transition:all .3s;cursor:pointer}
+  .box:hover{border-color:#8e44ad;background:#f4e8ff}
+  .box img{width:100%;height:100%;object-fit:cover;border-radius:14px}
+  .label{position:absolute;top:12px;left:12px;background:#8e44ad;color:#fff;padding:6px 14px;border-radius:12px;font-size:13px;font-weight:bold;z-index:10}
+  .del,.download{position:absolute;top:12px;z-index:11;padding:8px 10px;border:none;border-radius:50%;font-size:16px;cursor:pointer;transition:.2s}
+  .del{right:12px;background:#e74c3c;color:#fff}
+  .del:hover{background:#c0392b;transform:scale(1.15)}
+  .download{right:56px;background:#27ae60;color:#fff}
+  .download:hover{background:#1e8449;transform:scale(1.15)}
+  .overlay{position:absolute;inset:0;z-index:5}
+  .placeholder{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#bb86fc;font-size:16px;pointer-events:none;z-index:1}
+  .placeholder strong{font-size:18px}
+  .btns{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 22px 12px}
+  .copy1{padding:13px;background:#8e44ad;color:#fff;border:none;border-radius:14px;font-size:13.5px;font-weight:bold;cursor:pointer;transition:.3s}
+  .copy1:hover{background:#732d91;transform:scale(1.06)}
+  .info{padding:20px;text-align:center;background:#faf5ff;border-top:1px solid #eee}
+  .name{font-size:19px;font-weight:900;color:#8e44ad;margin-bottom:8px;line-height:1.4}
+  .status{padding:7px 18px;border-radius:30px;font-size:13.5px;font-weight:bold}
   .full{background:#d5f5e3;color:#27ae60}
   .lack{background:#fef9e7;color:#f39c12}
   .empty{background:#fadbd8;color:#e74c3c}
-  #log{position:fixed;bottom:20px;right:20px;max-width:350px;background:#34495e;color:#fff;padding:12px 16px;border-radius:8px;box-shadow:0 8px 30px rgba(0,0,0,.2);z-index:9999;font-size:13px;opacity:0;transition:opacity .4s;pointer-events: none}
+  #log{position:fixed;bottom:20px;right:20px;max-width:480px;background:#8e44ad;color:#fff;padding:18px 22px;border-radius:16px;box-shadow:0 12px 40px rgba(142,68,173,.6);z-index:9999;font-size:14.5px;max-height:420px;overflow-y:auto;opacity:0;transition:opacity .5s;border:3px solid #bb86fc}
   #log.show{opacity:1}
 </style>
 </head>
 <body>
-
 <div class="topbar">
-  <h1>QUẢN LÝ ẢNH SẢN PHẨM</h1>
+  <h1>QUẢN LÝ ẢNH SHOPEE - KÉO THẢ SIÊU MƯỢT</h1>
   <div class="stats">
     <span>Tổng: <strong id="total">0</strong></span>
     <span style="background:#27ae60">Đủ 4: <strong id="full">0</strong></span>
-    <span style="background:#f39c12">Thiếu: <strong id="partial">0</strong></span>
-    <span style="background:#e74c3c">Trống: <strong id="empty">0</strong></span>
+    <span style="background:#f39c12">Chưa đủ: <strong id="partial">0</strong></span>
+    <span style="background:#e74c3c">Chưa có: <strong id="empty">0</strong></span>
   </div>
 </div>
 
 <div class="pagination" id="pagination"></div>
 
 <div class="container">
-  <div class="grid" id="grid">Đang tải danh sách sản phẩm...</div>
+  <div class="grid" id="grid">Đang tải sản phẩm...</div>
 </div>
 
 <div id="log"></div>
@@ -70,212 +71,217 @@ let page = parseInt(localStorage.getItem('pg')||'1');
 let limit = parseInt(localStorage.getItem('lim')||'24');
 const cache = {};
 
-// === 10 PROMPT GENERIC (DÙNG CHO MỌI SẢN PHẨM) ===
-const SUB_PROMPTS = [
-  // 1. Góc nghiêng phải - Studio chuẩn
-  `Professional product photography of {name}, 45-degree angle from the right. Clean studio lighting, soft shadows, pure white background. High resolution 4K, sharp focus on details. Commercial e-commerce style.\nProduct Details:\n- Color: {color}\n- Material/Desc: {desc}\nBest quality, photorealistic, winning award photography.`,
+// Làm sạch text
+function clean(t=''){return t?.replace(/<[^>]*>/g,'').replace(/\\r\\n|\\n|\\r/g,' ').replace(/\s+/g,' ').trim() || ''}
 
-  // 2. Góc nghiêng trái - Ánh sáng mềm
-  `High-end product shot of {name}, 45-degree angle from the left. Softbox lighting creating gentle highlights, white background. 4K ultra-detailed, showcasing texture and build quality.\nProduct: {name}\nColor: {color}\nContext: {desc}\nHyper-realistic, elegant presentation.`,
-
-  // 3. Flatlay (Từ trên xuống) - Bố cục gọn gàng
-  `Flatlay photography of {name} from directly above (top-down view). Perfectly symmetrical, organized composition on a clean white surface. Bright, even lighting, no harsh shadows. 4K resolution.\nItem: {name}\nDetails: {desc}\nMinimalist, modern e-commerce look.`,
-
-  // 4. Cận cảnh (Macro) - Chi tiết vật liệu
-  `Extreme close-up macro shot of {name}, focusing on the material texture and craftsmanship. Depth of field (bokeh) background. Studio lighting highlighting quality.\nSubject: {name}\nColor: {color}\nFeature details: {desc}\nLuxurious feel, sharp details, 4K.`,
-
-  // 5. Góc thấp (Hero shot) - Tạo vẻ hoành tráng
-  `Low angle "hero shot" of {name}, looking slightly up at the product to make it look impressive. Dynamic lighting, white background. 4K resolution.\nProduct: {name}\nDescription: {desc}\nBold, impactful, advertising grade photography.`,
-
-  // 6. Lifestyle - Đặt trong bối cảnh mờ
-  `Lifestyle product photography of {name} placed in a relevant, blurry background context (home/office/outdoors depending on product). Natural lighting, depth of field.\nProduct: {name}\nColor: {color}\nUsage context: {desc}\nWarm, inviting, realistic usage scenario.`,
-
-  // 7. Góc 3/4 - Ánh sáng điện ảnh
-  `Cinematic product shot of {name}, 3/4 view. Dramatic rim lighting to outline the shape, neutral grey or white background. High contrast, sharp 8K image.\nObject: {name}\nDetails: {desc}\nPremium, tech or luxury vibe.`,
-
-  // 8. Chụp thẳng nhưng có đạo cụ nhẹ (Minimalist)
-  `Front view of {name} with minimalist props (e.g., a simple geometric block or plant shadow) on the side. Pastel or white background. Aesthetic composition.\nProduct: {name}\nColor: {color}\nStyle info: {desc}\nInstagram/Pinterest aesthetic, trendy.`,
-
-  // 9. Bao bì/Hộp (nếu có) hoặc góc cạnh
-  `Studio shot of {name} highlighting its packaging or edge profile. Clean, professional look. White background, high key lighting.\nProduct: {name}\nDetails: {desc}\nRetail ready image.`,
-
-  // 10. Sáng tạo - Ánh sáng tự nhiên
-  `Sun-drenched product photo of {name}, natural sunlight with shadow patterns (gobo) falling on the background. Fresh, organic feel. High resolution.\nItem: {name}\nColor: {color}\nDesc: {desc}\nVibrant, catchy, summer vibes.`
-];
-
-// === PROMPT CHÍNH DIỆN (MAIN) ===
-const MAIN_PROMPT = `Professional front-facing product photography of {name}. Straight-on view, centered composition. Perfect studio lighting, pure white background (RGB 255,255,255). Ultra-detailed 4K, sharp focus from edge to edge. \nProduct Info:\n- Name: {name}\n- Color: {color}\n- Size/Dimensions: {size}\n- Description: {desc}\nNo watermark, commercial use quality, photorealistic, trusted e-commerce image.`;
-
-function clean(t=''){return t?.replace(/<[^>]*>/g,'').replace(/\\r\\n|\\n|\\r/g,' ').replace(/\s+/g,' ').trim()||''}
-
-// Hàm lấy màu: Vẫn giữ nguyên logic cũ nhưng bổ sung thêm màu tiếng Anh nếu cần
+// Lấy màu
 function getColor(n,d){
-    const c=['red','orange','yellow','green','blue','purple','pink','black','white','brown','gray','beige','gold','silver','cream','pastel','navy','teal','maroon'];
-    const l=`${n} ${d}`.toLowerCase();
-    for(let x of c) if(l.includes(x)) return x.charAt(0).toUpperCase() + x.slice(1);
-    return 'Original Color'; // Mặc định nếu không tìm thấy
+  const c=['red','orange','yellow','green','blue','purple','pink','black','white','brown','gray','beige','cream','pastel','vibrant','bright','colorful'];
+  const l=`${n} ${d}`.toLowerCase();
+  for(let x of c)if(l.includes(x))return x[0].toUpperCase()+x.slice(1);
+  return '';
 }
 
 function getSize(d){
-    const m=d.match(/\b(\d+[\dx\.\s]*(cm|mm|m|inch)|xxs|xs|s|m|l|xl|xxl|size \d+)\b/i);
-    return m?m[0]:'Standard size';
+  const m=d.match(/\b(\d+[\dx\.\s]*cm|xxs|xs|s|m|l|xl|xxl|mini|small|medium|large)\b/i);
+  return m?m[0]:'';
 }
 
+// Tạo prompt thông minh 100% từ dữ liệu thật
 function makePrompt(p, idx){
-  const desc = clean(p.description || p.short_description || '');
-  const data = {
-      name: p.name || 'Product', 
-      color: getColor(p.name, desc), 
-      size: getSize(desc), 
-      desc: desc.substring(0, 300) // Cắt ngắn bớt description để tránh quá dài cho AI
-  };
-  
-  const tmpl = idx === 0 ? MAIN_PROMPT : "tạo ảnh dựa trên ảnh trước đó mà bạn đã tạo " + SUB_PROMPTS[Math.floor(Math.random()*SUB_PROMPTS.length)];
-  
-  // Thay thế và trả về
-  return tmpl
-    .replace(/{name}/g, data.name)
-    .replace(/{color}/g, data.color)
-    .replace(/{size}/g, data.size)
-    .replace(/{desc}/g, data.desc);
+  const name = p.name || '';
+  const short = clean(p.short_description || '');
+  const desc = clean(p.description || '');
+  const text = `${name} ${short} ${desc}`.toLowerCase();
+
+  const color = getColor(name, desc) || 'beautiful';
+  const size = getSize(desc);
+
+  const isWool = /wool|len/.test(text);
+  const isPlush = /plush|stuffed|cuddly|nhồi bông/.test(text);
+  const isWooden = /wood|wooden|gỗ/.test(text);
+  const isPlastic = /plastic|nhựa/.test(text);
+  const isPuzzle = /puzzle|xếp hình/.test(text);
+
+  let typeDesc = name;
+  let adj = "adorable, premium quality, highly detailed, extremely cute";
+
+  if(isWool) adj = "handcrafted from premium soft wool, ultra cozy, luxurious feel";
+  if(isPlush) adj = "ultra-soft plush fabric, super huggable, extremely cute and cuddly";
+  if(isWooden) adj = "made from natural eco-friendly wood, smooth polished surface, premium craftsmanship";
+  if(isPlastic) adj = "vibrant durable plastic, bright colors, fun and safe";
+
+  const SUB_PROMPTS = [
+    `Professional studio shot, 45° right angle of ${typeDesc}, ${adj}, soft studio lighting, pure white background, ultra sharp 4K details, Shopee best-seller style.\nProduct: ${name}\nColor: ${color}\nSize: ${size}`,
+    `45° left angle, beautiful side lighting, show material texture clearly, pure white background, 4K crisp.\nProduct: ${name}`,
+    `Top-down flatlay view, perfect composition, clean white background, soft even lighting, 4K.\nProduct: ${name}`,
+    `Back view showing stitching/logo/details, professional lighting, pure white background, 4K.\nProduct: ${name}`,
+    `Macro close-up of the cutest detail (eyes, texture, wood grain...), ultra sharp 4K macro, pure white background.\nProduct: ${name}`,
+    `Lifestyle shot on white sofa/soft blanket, cozy warm feeling, soft natural light, very inviting, 4K.\nProduct: ${name}`,
+    `Hand holding the toy gently (no face), show real size and softness, clean white background, 4K.\nProduct: ${name}`,
+    `Close-up texture of material (wool/plush/wood/plastic), show softness/smoothness clearly, macro 4K.\nProduct: ${name}`,
+    `3/4 premium angle, luxury lighting, pure white background, magazine quality, 4K.\nProduct: ${name}`
+  ];
+
+  const MAIN_PROMPT = `Professional front cover photo of ${typeDesc}, ${adj}, perfectly centered, soft professional studio lighting from top and sides, pure white seamless background, ultra sharp 4K resolution, extremely attractive and premium, best-selling Shopee style, makes customers want to buy immediately.\nProduct: ${name}\nColor: ${color}\nSize: ${size}\nDescription: ${short||desc.slice(0,150)}...\nReal product photo 100%, no text, no watermark, PNG highest quality.`;
+
+  return idx === 0 ? MAIN_PROMPT + "đừng viết chữ vào ảnh, nếu trường hợp mà làm bao bì thì mới viết chữ lên bao bì " : SUB_PROMPTS[Math.floor(Math.random()*SUB_PROMPTS.length)] ;
 }
 
 function copyPrompt(id, idx){
   const p = cache[id];
-  if(!p) return log('Không tìm thấy dữ liệu sản phẩm!');
+  if(!p) return log('Không tìm thấy sản phẩm!');
   const txt = makePrompt(p, idx);
-  navigator.clipboard.writeText(txt).then(()=>log(`Đã copy prompt cho Ảnh ${idx+1}`));
+  navigator.clipboard.writeText(txt).then(()=>log(`Đã copy prompt ảnh ${idx+1}`));
 }
-
-// ... CÁC HÀM XỬ LÝ ẢNH GIỮ NGUYÊN ...
 
 function downloadImage(url, productName, index){
   if(!url) return;
   const cleanName = productName.replace(/[^a-z0-9]/gi, '-').toLowerCase();
   const filename = `${cleanName}-${index+1}.webp`;
-  fetch(API_BASE + url)
-    .then(r => r.blob())
-    .then(blob => {
-      const a = document.createElement('a');
-      a.href = URL.createObjectURL(blob);
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(a.href);
-      log(`Đã tải: ${filename}`);
-    });
+  fetch(API_BASE + url).then(r=>r.blob()).then(blob=>{
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob);
+    a.download=filename;
+    a.click();
+    log(`Đã tải: ${filename}`);
+  });
 }
 
 async function upload(file, pid, idx){
   if(!file) return;
   const form = new FormData();
   form.append('image', file);
-  const res = await fetch(`${API_BASE}/upload-single/${pid}/${idx}`, {
-    method: 'POST',
-    body: form
-  });
+  const res = await fetch(`${API_BASE}/upload-single/${pid}/${idx}`, {method:'POST', body:form});
   const json = await res.json();
-  if(json.success) {
+  if(json.success){
     log(`Upload thành công ảnh ${idx+1}`);
     load(page);
   } else {
-    log('Lỗi: ' + (json.error || 'Upload thất bại'));
+    log('Upload thất bại: ' + (json.error || 'Lỗi server'));
   }
 }
 
 function removeImg(pid, idx, e){
   e.stopPropagation();
-  if(!confirm('Bạn chắc chắn muốn xóa ảnh này?')) return;
+  if(!confirm('Xóa ảnh này thật chứ?')) return;
   fetch(`${API_BASE}/remove-image/${pid}/${idx}`, {method:'POST'})
     .then(r=>r.json())
-    .then(d=>{
-      if(d.success) {
-        log(`Đã xóa ảnh ${idx+1}`);
-        load(page);
-      }
-    });
+    .then(d=>{ if(d.success){ log(`Đã xóa ảnh ${idx+1}`); load(page); } });
 }
 
-function drop(e, pid, idx){
+// KÉO THẢ SIÊU MƯỢT – HOẠT ĐỘNG 100%
+function handleDrop(e, pid, idx){
   e.preventDefault();
+  e.stopPropagation();
+  const box = e.target.closest('.box');
+  box.style.borderColor = '#bb86fc';
+  box.style.background = '#fff';
+
   const file = e.dataTransfer.files[0];
-  if(file && file.type.startsWith('image/')) upload(file, pid, idx);
+  if(file && file.type.startsWith('image/')){
+    upload(file, pid, idx);
+  } else {
+    log('Chỉ chấp nhận file ảnh!');
+  }
 }
+
+// Click bất kỳ đâu trên ô (trừ nút) → mở chọn file
+document.addEventListener('click', e => {
+  const box = e.target.closest('.box');
+  if(box && !e.target.closest('button')){
+    box.querySelector('input[type=file]').click();
+  }
+});
+
+// Drag effect đẹp
+document.addEventListener('dragover', e => e.preventDefault());
+document.addEventListener('dragenter', e => {
+  const box = e.target.closest('.box');
+  if(box){
+    box.style.borderColor = '#8e44ad';
+    box.style.background = '#f4e8ff';
+  }
+});
+document.addEventListener('dragleave', e => {
+  const box = e.target.closest('.box');
+  if(box && !box.contains(e.relatedTarget)){
+    box.style.borderColor = '#bb86fc';
+    box.style.background = '#fff';
+  }
+});
 
 async function load(p=page){
   page = p;
-  localStorage.setItem('pg',page); localStorage.setItem('lim',limit);
-  
-  // Thêm try-catch để handle lỗi mạng
-  try {
-      const r = await fetch(`${API_BASE}/api/products?page=${page}&limit=${limit}`);
-      const d = await r.json();
-      
-      d.products.forEach(x=>cache[x.id]=x);
+  localStorage.setItem('pg',page);
+  localStorage.setItem('lim',limit);
+  const r = await fetch(`${API_BASE}/api/products?page=${page}&limit=${limit}`);
+  const d = await r.json();
+  d.products.forEach(x=>cache[x.id]=x);
 
-      document.getElementById('total').textContent = d.stats.total;
-      document.getElementById('full').textContent = d.stats.full;
-      document.getElementById('partial').textContent = d.stats.partial;
-      document.getElementById('empty').textContent = d.stats.empty;
+  document.getElementById('total').textContent = d.stats.total;
+  document.getElementById('full').textContent = d.stats.full;
+  document.getElementById('partial').textContent = d.stats.partial;
+  document.getElementById('empty').textContent = d.stats.empty;
 
-      document.getElementById('grid').innerHTML = d.products.map(p=>{
-        const c = p.images.filter(Boolean).length;
-        return `<div class="card" data-id="${p.id}">
-          <div class="imgs">
-            ${[0,1,2,3].map(i=>`
-              <div class="box">
-                ${p.images[i]?`
-                  <img src="${API_BASE}${p.images[i]}">
-                  <button class="del" onclick="removeImg('${p.id}',${i},event)" title="Xóa">✕</button>
-                  <button class="download" onclick="event.stopPropagation(); downloadImage('${p.images[i]}','${p.name.replace(/'/g,"\\\'")}',${i})" title="Tải xuống">⬇</button>
-                ` : `
-                  <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#bdc3c7;font-size:13px">
-                    <span style="font-size:24px;margin-bottom:5px">+</span>
-                    <strong>${i===0 ? 'Ảnh Bìa' : 'Ảnh '+(i+1)}</strong>
-                  </div>
-                `}
-                <div class="label" ${!p.images[i] ? 'style="display:none"' : ''}>${i===0?'MAIN':'Góc '+(i+1)}</div>
-                <div class="upload-area" 
-                     ondrop="drop(event, '${p.id}', ${i}); return false;" 
-                     ondragover="event.preventDefault(); return false;"
-                     onclick="this.parentElement.querySelector('input').click()"></div>
-                <input type="file" accept="image/*" style="display:none" onchange="upload(this.files[0],'${p.id}',${i})">
+  document.getElementById('grid').innerHTML = d.products.map(p => {
+    const c = p.images.filter(Boolean).length;
+    return `<div class="card" data-id="${p.id}">
+      <div class="imgs">
+        ${[0,1,2,3].map(i => `
+          <div class="box" data-pid="${p.id}" data-idx="${i}">
+            ${p.images[i] ? `
+              <img src="${API_BASE}${p.images[i]}" loading="lazy">
+              <button class="del" onclick="removeImg('${p.id}',${i},event)">X</button>
+              <button class="download" onclick="event.stopPropagation(); downloadImage('${p.images[i]}','${p.name.replace(/'/g,"\\'")}',${i})">Down</button>
+            ` : `
+              <div class="placeholder">
+                <strong>Ảnh ${i+1}</strong>
+                <small>Kéo thả ảnh vào đây</small>
               </div>
-            `).join('')}
+            `}
+            <div class="label">${i===0?'ẢNH BÌA':'Ảnh '+(i+1)}</div>
+            <div class="overlay"
+                 ondragover="event.preventDefault()"
+                 ondrop="handleDrop(event, '${p.id}', ${i})">
+            </div>
+            <input type="file" accept="image/*" style="display:none">
           </div>
-          <div class="btns">
-            <button class="copy1" onclick="copyPrompt('${p.id}',0)">Copy Prompt Chính</button>
-            <button class="copy1" onclick="copyPrompt('${p.id}',1)">Copy Prompt Phụ</button>
-          </div>
-          <div class="info">
-            <div class="name" title="${p.name}">${p.name}</div>
-            <div class="status ${c===4?'full':c===0?'empty':'lack'}">${c===4?'Đủ ảnh':c===0?'Chưa có':c+'/4 ảnh'}</div>
-          </div>
-        </div>`;
-      }).join('');
+        `).join('')}
+      </div>
+      <div class="btns">
+        <button class="copy1" onclick="copyPrompt('${p.id}',0)">Copy Ảnh 1 (Bìa)</button>
+        <button class="copy1" onclick="copyPrompt('${p.id}',1)">Copy Ảnh 2</button>
+        <button class="copy1" onclick="copyPrompt('${p.id}',2)">Copy Ảnh 3</button>
+        <button class="copy1" onclick="copyPrompt('${p.id}',3)">Copy Ảnh 4</button>
+      </div>
+      <div class="info">
+        <div class="name">${p.name}</div>
+        <div class="status ${c===4?'full':c===0?'empty':'lack'}">${c===4?'Đủ 4':c===0?'Chưa có':c+'/4'}</div>
+      </div>
+    </div>`;
+  }).join('');
 
-      const pg = d.pagination;
-      document.getElementById('pagination').innerHTML = `
-        <button onclick="load(${pg.current-1})" ${pg.current===1?'disabled':''}>❮ Trước</button>
-        <span style="font-weight:bold;color:#2c3e50;margin:0 15px">Trang ${pg.current} / ${pg.total}</span>
-        <button onclick="load(${pg.current+1})" ${pg.current===pg.total?'disabled':''}>Sau ❯</button>
-        <select onchange="limit=this.value;load(1)" style="margin-left:10px;padding:8px;border-radius:6px">
-          <option value="24" ${limit==24?'selected':''}>24 / trang</option>
-          <option value="50" ${limit==50?'selected':''}>50 / trang</option>
-          <option value="100" ${limit==100?'selected':''}>100 / trang</option>
-        </select>`;
-        
-  } catch (err) {
-      document.getElementById('grid').innerHTML = `<div style="text-align:center;grid-column:1/-1;padding:40px;color:#e74c3c">Không kết nối được với Server (API_BASE).<br>Hãy kiểm tra lại backend.</div>`;
-  }
+  const pg = d.pagination;
+  document.getElementById('pagination').innerHTML = `
+    <button onclick="load(${pg.current-1})" ${pg.current===1?'disabled':''}>Trước</button>
+    <span style="font-weight:bold;color:#8e44ad;margin:0 25px;font-size:18px">Trang ${pg.current} / ${pg.total}</span>
+    <button onclick="load(${pg.current+1})" ${pg.current===pg.total?'disabled':''}>Sau</button>
+    <select onchange="limit=this.value;load(1)">
+      <option value="24" ${limit==24?'selected':''}>24 sản phẩm</option>
+      <option value="50" ${limit==50?'selected':''}>50</option>
+      <option value="100" ${limit==100?'selected':''}>100</option>
+    </select>`;
 }
 
 function log(m){
   const b=document.getElementById('log');
-  b.textContent = m;
+  const d=document.createElement('div');
+  d.textContent=m;
+  d.style.margin='8px 0';
+  b.prepend(d);
   b.classList.add('show');
-  // Reset timer cũ nếu có để tránh bị ẩn quá nhanh khi spam click
-  if(window.logTimeout) clearTimeout(window.logTimeout);
-  window.logTimeout = setTimeout(()=>b.classList.remove('show'), 3000);
+  setTimeout(()=>{b.classList.remove('show'); setTimeout(()=>b.innerHTML='',1200)},5000);
 }
 
 load();
