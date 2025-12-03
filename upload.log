@@ -302,3 +302,12 @@
 [20:11:49 2/12/2025] [127.0.0.1] UPLOAD → Classic Cuddly Teddy Bear | Ảnh 1 → classic-cuddly-teddy-bear-1.webp (39KB)
 [20:12:41 2/12/2025] [unknown] UPLOAD → Classic Cuddly Teddy Bear | Ảnh 2 → classic-cuddly-teddy-bear-2.webp (32KB)
 [20:18:07 2/12/2025] [unknown] UPLOAD → Classic Cuddly Teddy Bear | Ảnh 3 → classic-cuddly-teddy-bear-3.webp (72KB)
+[08:16:08 3/12/2025] [SERVER] Đang load từ: products_with_images.csv
+[08:16:09 3/12/2025] [SERVER] ============================================
+[08:16:09 3/12/2025] [SERVER]    TOOL QUẢN LÝ ẢNH SẢN PHẨM - PHIÊN BẢN MỚI   
+[08:16:09 3/12/2025] [SERVER]    ĐÃ FIX HOÀN TOÀN LỖI EBUSY TRÊN WINDOWS   
+[08:16:09 3/12/2025] [SERVER]    Server chạy tại: http://localhost:3000   
+[08:16:09 3/12/2025] [SERVER]    Upload liên tục 1000 ảnh vẫn mượt mà!     
+[08:16:09 3/12/2025] [SERVER] ============================================
+[08:16:09 3/12/2025] [SERVER] Định dạng CSV: TOOL_BACKUP
+[08:16:09 3/12/2025] [SERVER] KHỞI ĐỘNG THÀNH CÔNG – Đã load 365 sản phẩm
