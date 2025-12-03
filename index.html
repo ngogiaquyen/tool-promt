@@ -123,8 +123,8 @@ function makePrompt(p, idx){
     `3/4 premium angle, luxury lighting, pure white background, magazine quality, 4K.\nProduct: ${name}`
   ];
 
-  const MAIN_PROMPT = `Professional front cover photo of ${typeDesc}, ${adj}, perfectly centered, soft professional studio lighting from top and sides, pure white seamless background, ultra sharp 4K resolution, extremely attractive and premium, best-selling Shopee style, makes customers want to buy immediately.\nProduct: ${name}\nColor: ${color}\nSize: ${size}\nDescription: ${short||desc.slice(0,150)}...\nReal product photo 100%, no text, no watermark, PNG highest quality.`;
-
+  const MAIN_PROMPT = `Professional front cover photo of ${typeDesc}, ${adj}, perfectly centered, soft professional studio lighting from top and sides, có nền phù hợp, thường xuyên đổi mới nền cho tôi, ultra sharp 4K resolution, extremely attractive and premium, best-selling Shopee style, makes customers want to buy immediately.\nProduct: ${name}\nColor: ${color}\nSize: ${size}\nDescription: ${short + desc}...\nReal product photo 100%, no text, no watermark, PNG highest quality.`;
+  console.log(MAIN_PROMPT)
   return idx === 0 ? MAIN_PROMPT + "đừng viết chữ vào ảnh, nếu trường hợp mà làm bao bì thì mới viết chữ lên bao bì " : SUB_PROMPTS[Math.floor(Math.random()*SUB_PROMPTS.length)] ;
 }
 
@@ -132,6 +132,7 @@ function copyPrompt(id, idx){
   const p = cache[id];
   if(!p) return log('Không tìm thấy sản phẩm!');
   const txt = makePrompt(p, idx);
+  console.log("txt: ", txt)
   navigator.clipboard.writeText(txt).then(()=>log(`Đã copy prompt ảnh ${idx+1}`));
 }
 
